@@ -7,7 +7,7 @@ export class Transaction {
         this.assetID = assetID;
         this.type = type;
         this.quantity = quantity;
-        this.asset = getAssetById(assetId);
+        this.asset = getAssetbyId(assetID);
 
         // logging error if asset does not exist
 if (!this.asset) {
