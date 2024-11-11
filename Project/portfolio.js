@@ -20,7 +20,8 @@ export function getPortfolioAllocation () {
       name: asset.name,
       allocation: ((asset.price * asset.quantity) / portfolioValue) * 100, 
     }))
-
 }
+
+
 
 
